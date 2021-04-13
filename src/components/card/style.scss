@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &-img {
+    width: 127px;
+    height: 127px;
+  }
+
+  &-title {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 25px;
+    line-height: 30px;
+    width: 241px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  &-description {
+    color: #807f7f;
+    font-family: OpenSans;
+    font-size: 19px;
+    line-height: 25.87px;
+    width: 298px;
+    text-align: justify;
+  }
+}

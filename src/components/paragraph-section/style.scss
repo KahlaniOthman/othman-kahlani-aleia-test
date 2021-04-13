@@ -1,0 +1,42 @@
+.paragraphSection {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 60px;
+  margin: 0 100px;
+  background-color: #ffffff;
+  box-shadow: 0 100px 100px 0 rgba(236, 236, 236, 0.5);
+  padding: 70px 120px 70px;
+
+  &-title {
+    color: #000000;
+    font-family: Montserrat-SemiBold;
+    font-size: 40px;
+    width: 400px;
+    line-height: 48.76px;
+    text-align: justify;
+  }
+
+  &-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-parag {
+      color: #807f7f;
+      font-family: OpenSans;
+      font-size: 24px;
+      line-height: 25.87px;
+      width: 460px;
+      text-align: justify;
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+    }
+
+    &-btn {
+      width: 150px;
+      height: 50px;
+      outline: none;
+    }
+  }
+}

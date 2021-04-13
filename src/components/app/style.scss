@@ -1,0 +1,32 @@
+.app {
+  width: 1440px;
+  margin: auto;
+
+  .divider {
+    margin: 10px 100px;
+    border: 1px solid #2e8174;
+    width: 181px;
+  }
+
+  .middleTile {
+    color: #000000;
+    font-family: Montserrat-SemiBold;
+    font-size: 40px;
+    line-height: 48.76px;
+    width: 780px;
+    text-align: justify;
+    margin: 60px auto;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+    &-button {
+      width: 297px;
+      height: 50px;
+      outline: none;
+    }
+  }
+}
