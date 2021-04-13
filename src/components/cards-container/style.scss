@@ -4,3 +4,10 @@
   align-items: center;
   margin: 100px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cardsContainer {
+    flex-direction: column;
+    margin: 50px 50px 0;
+  }
+}

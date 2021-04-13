@@ -30,3 +30,22 @@
     }
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .app {
+    width: 768px;
+
+    .divider {
+      margin: 10px 50px;
+    }
+
+    .middleTile {
+      text-align: center;
+      margin: 30px auto;
+    }
+
+    .buttonContainer {
+      margin-bottom: 50px;
+    }
+  }
+}

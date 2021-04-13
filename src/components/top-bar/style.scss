@@ -35,3 +35,9 @@
     font-weight: bold;
   }
 }
+
+@media (max-width: 1024px) {
+  .topBar {
+    display: none;
+  }
+}

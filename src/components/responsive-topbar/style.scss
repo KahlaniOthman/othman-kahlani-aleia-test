@@ -16,3 +16,11 @@
     height: 34px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .responsiveTopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

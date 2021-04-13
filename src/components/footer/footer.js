@@ -34,7 +34,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-bottom">© 2020. All rights reserved.</div>
+      <div className="footer-bottom">
+        <img src={logoAleia} alt="aleia" className="footer-bottom-img" />
+        <span> © 2020. All rights reserved.</span>
+      </div>
     </footer>
   );
 };
