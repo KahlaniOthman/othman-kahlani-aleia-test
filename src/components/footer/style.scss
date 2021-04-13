@@ -126,14 +126,14 @@
 
     &-bottom {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
-      padding: 0 50px;
+      padding: 0 30px;
 
       &-img {
         display: block;
-        width: 143px;
-        height: 57px;
+        width: 78px;
+        height: 31px;
       }
     }
   }
