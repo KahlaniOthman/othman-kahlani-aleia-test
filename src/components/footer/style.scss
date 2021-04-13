@@ -112,3 +112,29 @@
     }
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer {
+    width: 481px;
+
+    &-top {
+      &-logos,
+      &-img {
+        display: none;
+      }
+    }
+
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 50px;
+
+      &-img {
+        display: block;
+        width: 143px;
+        height: 57px;
+      }
+    }
+  }
+}

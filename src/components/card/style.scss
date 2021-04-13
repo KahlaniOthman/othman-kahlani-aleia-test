@@ -37,3 +37,29 @@
     }
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .card {
+    margin-bottom: 24px;
+
+    &-img {
+      width: 70px;
+      height: 70px;
+    }
+
+    &-title {
+      font-size: 16px;
+      line-height: 19px;
+      width: 114px;
+      text-align: center;
+      margin: 16px 0;
+    }
+
+    &-description {
+      width: 100%;
+      font-size: 14px;
+      line-height: 19.07px;
+      text-align: justify;
+    }
+  }
+}
